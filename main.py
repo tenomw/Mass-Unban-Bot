@@ -4,6 +4,7 @@ from discord.embeds import Embed
 
 
 client = commands.Bot(command_prefix="$")
+client.remove_command("help")
 
 token = ""
 
