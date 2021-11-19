@@ -10,7 +10,7 @@ token = ""
 
 @client.event
 async def on_ready():
-    print("Bot is ready!")
+    print(f"We have logged in as...\n{client.user}")
 
 @client.command()
 async def massunban(ctx):
