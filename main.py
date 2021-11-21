@@ -21,8 +21,8 @@ async def massunban(ctx):
     for users in blist:
         try:
             await ctx.guild.unban(user=users.user)
-        except:
-            pass
+        except Exception as e:
+            print(f'[ERROR] : {e}')
 
 @client.event
 async def on_member_unban(guild, user):
