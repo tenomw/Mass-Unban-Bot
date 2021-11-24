@@ -6,7 +6,7 @@ from discord.embeds import Embed
 client = commands.Bot(command_prefix="$")
 client.remove_command("help")
 
-token = ""
+token = "OTEyMjE2NjMzMTM5OTQ1NTYy.YZst8Q.mn4y2M83x6Mh-vkJwsG9d36nB30"
 
 @client.event
 async def on_ready():
